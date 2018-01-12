@@ -10,12 +10,12 @@
     <Description>Helper for creating a new repository with the GitHub API</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.DevOps.VersionControl.Functions.CreateGitHubRepository</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Common.Functions.PostJsonWithBasicAuthentication" Version="2.0.0" />
-    <PackageReference Include="CDorst.Metaproject.Users.CDorst.GitHubAccessToken" Version="1.0.0" />
+    <PackageReference Include="CDorst.Common.Functions.SendJsonApiRequest" Version="1.0.0" />
+    <PackageReference Include="CDorst.Metaproject.Users.CDorst.GitHubAccessToken" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
